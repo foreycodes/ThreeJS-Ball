@@ -1,5 +1,5 @@
 import * as THREE from 'three'; 
-import './style.css'
+import './style.css';
 
 // Set up the scene
 const scene = new THREE.Scene(); 
@@ -18,6 +18,7 @@ const sizes = {
   width: window.innerWidth, 
   height: window.innerHeight,
 }
+
 // Light
 const light = new THREE.PointLight(0xffffff, 1, 100)
 light.position.set(0, 10, 10)
@@ -34,3 +35,21 @@ const canvas = document.querySelector('.webgl');
 const renderer = new THREE.WebGLRenderer({canvas})
 renderer.setSize(sizes.width, sizes.height)
 renderer.render(scene, camera)
+
+// Resize
+window.addEventListener('resize', () => {
+  // Update Sizes
+  sizes.width = window.innerWidth
+  sizes.height = window.innerHeight
+  // Update Camera
+  camera.aspect = sizes.width / sizes.height
+  camera.updateProjectionMatrix()
+  renderer.setSize(sizes.width, sizes.height)
+})
+
+// Re-Render the Canvas
+const loop = () => {
+  renderer.render(scene, camera); 
+  window.requestAnimationFrame(loop); 
+}
+loop()
