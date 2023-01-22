@@ -17,7 +17,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/foreycodes/GPT3-React-Website">
+  <a href="https://github.com/foreycodes/ThreeJS-Ball">
     <img src="https://i.imgur.com/vgpIYGJ.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -66,8 +66,7 @@
 ### Live Project 
 View the project 🎉
 
-* [Netlify](https://forey-gpt3-react.netlify.app/)
-* [Github Pages](https://foreycodes.github.io/GPT3-React-Website/)
+* [Netlify](https://foreycodes-sphere.netlify.app/)
 
 
 ### Built With
@@ -126,7 +125,7 @@ Ensure you have downloaded and installed Three.JS and GSAP.
 
 Emma F. - [@foreycodes](https://twitter.com/foreycodes) - foreycodes@gmail.com
 
-Project Link: [https://github.com/foreycodes/GPT3-React-Website](https://github.com/foreycodes/GPT3-React-Website)
+Project Link: [https://github.com/foreycodes/ThreeJS-Ball](https://github.com/foreycodes/ThreeJS-Ball)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
