@@ -17,7 +17,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/foreycodes/ThreeJS-Ball">
+  <a href="https://github.com/foreycodes/ThreeJS-Sphere">
     <img src="https://i.imgur.com/vgpIYGJ.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -97,7 +97,7 @@ Ensure you have downloaded and installed Three.JS and GSAP.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/foreycodes/ThreeJS-Ball.git
+   git clone https://github.com/foreycodes/ThreeJS-Sphere.git
    ```
 2. Install NPM packages
    ```sh
@@ -125,7 +125,7 @@ Ensure you have downloaded and installed Three.JS and GSAP.
 
 Emma F. - [@foreycodes](https://twitter.com/foreycodes) - foreycodes@gmail.com
 
-Project Link: [https://github.com/foreycodes/ThreeJS-Ball](https://github.com/foreycodes/ThreeJS-Ball)
+Project Link: [https://github.com/foreycodes/ThreeJS-Sphere](https://github.com/foreycodes/ThreeJS-Sphere)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
